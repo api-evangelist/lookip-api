@@ -1,0 +1,54 @@
+name: Lookip API
+description: >-
+  IP intelligence API providing geolocation, ASN lookup, and VPN/proxy/Tor/threat detection via LITE and MAX lookup
+  tiers. Prepaid, metered per query with a public OpenAPI contract and an agent-native llms.txt.
+url: https://raw.githubusercontent.com/api-evangelist/lookip-api/refs/heads/main/apis.yml
+created: '2026-08-25'
+modified: '2026-08-25'
+specificationVersion: '0.21'
+tags:
+  - IP
+  - IP Address
+  - Geolocation
+  - ASN
+  - VPN Detection
+  - Proxy Detection
+  - Tor
+  - Hosting Detection
+  - Threat Intelligence
+  - Fraud Prevention
+  - Developer Tools
+apis:
+  - name: Lookip API
+    description: >-
+      REST/HTTP IP intelligence API with LITE and MAX lookup tiers, batch lookups, and keyless public ASN endpoints.
+      Bearer API key auth, prepaid credit metering.
+    humanURL: https://lookip.io/docs
+    baseURL: https://api.lookip.io
+    tags:
+      - IP
+      - IP Address
+      - Geolocation
+      - ASN
+      - VPN Detection
+      - Proxy Detection
+      - Tor
+      - Hosting Detection
+      - Threat Intelligence
+      - Fraud Prevention
+      - Developer Tools
+    properties:
+      - type: OpenAPI
+        url: https://api.lookip.io/openapi.json
+      - type: LLMsTxt
+        url: https://lookip.io/llms.txt
+      - type: Documentation
+        url: https://lookip.io/docs
+maintainers:
+  - FN: Lookip
+    url: https://lookip.io
+generated:
+  by: apis.io/add
+  model: claude-opus-4-8
+  confidence: 98
+  at: '2026-08-25T20:19:01.797Z'
