@@ -3,6 +3,17 @@ description: >-
   IP intelligence API providing geolocation, ASN lookup, and VPN/proxy/Tor/threat detection via LITE and MAX lookup
   tiers. Prepaid, metered per query with a public OpenAPI contract and an agent-native llms.txt.
 url: https://raw.githubusercontent.com/api-evangelist/lookip-api/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 created: '2026-08-25'
 modified: '2026-08-25'
 specificationVersion: '0.21'
